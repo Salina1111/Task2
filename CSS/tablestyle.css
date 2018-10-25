@@ -1,0 +1,23 @@
+html{
+    background-image: url(../Images/tablebg.jpeg);
+    -webkit-background-size:cover;
+    -moz-webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    font-family:'Halvetica Neue',sans-serif; 
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+}
+
+h1{
+    text-align: center;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}

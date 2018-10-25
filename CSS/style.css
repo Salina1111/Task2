@@ -1,18 +1,16 @@
 *{
     box-sizing: border-box;
 }
+
 html{
     background: url(../Images/background.jpeg);
-    -webkit-background-size:cover;
-    -moz-webkit-background-size:cover;
-    -o-background-size:cover;
     background-size: cover;
     font-family:'Halvetica Neue',sans-serif; 
 }
 
 body{
 color: #a43820;
-margin: 0;
+/* margin: 0 auto; */
 font-size: 14px;
 
 }
@@ -50,14 +48,34 @@ li a:hover:not(.active) {
     text-align: center;
 }
 
-.back-image{
-    background-image: url(Images/background);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
+
+.bodysection{
+    margin-top:10px;  
+}
+.column {
+    float: left;
+    width: 33.33%;
     padding: 15px;
+} 
+
+.prof-box{
+    width: 400px;
+    height: 500px;
+    background: #002540;
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 140px; 
+    text-align: center;
 }
 
+.prof-pic{
+    border-radius: 50%;
+    height:200px ;
+    width: 200px;
+}
 
-  
-
-
+.footer{
+    background-color: #a43820;
+    text-align: center;
+}
